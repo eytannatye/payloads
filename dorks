@@ -1,0 +1,43 @@
+site:DOMAIN.co.il inurl:wp-content
+site:DOMAIN.co.il inurl:wp-includes
+site:DOMAIN.co.il inurl:wp-admin
+site:DOMAIN.co.il filetype:php inurl:wp-content/plugins
+site:DOMAIN.co.il “index of” wp-content/plugins
+site:DOMAIN.co.il inurl:uploads filetype:php
+site:DOMAIN.co.il filetype:env
+site:DOMAIN.co.il filetype:sql
+site:DOMAIN.co.il intitle:"index of" inurl:wp-content/themes
+site:DOMAIN.co.il inurl:"/wp-content/themes/" ext:zip
+
+site:DOMAIN.co.il ext:env OR ext:json "SECRET"
+site:DOMAIN.co.il "api_key"
+site:DOMAIN.co.il "api-secret"
+site:DOMAIN.co.il "Authorization: Bearer"
+site:DOMAIN.co.il intext:"-----BEGIN PRIVATE KEY-----"
+site:DOMAIN.co.il "AWS_ACCESS_KEY_ID" OR "AWS_SECRET_ACCESS_KEY"
+site:DOMAIN.co.il "GCP_API_KEY" OR "FIREBASE_API_KEY"
+site:DOMAIN.co.il "STRIPE_SECRET_KEY"
+site:DOMAIN.co.il "REACT_APP_" "KEY"
+site:DOMAIN.co.il "STORAGE_SECRET" OR "CRYPTO_SECRET"
+
+site:DOMAIN.co.il inurl:login
+site:DOMAIN.co.il intitle:"login"
+site:DOMAIN.co.il "forgot password"
+site:DOMAIN.co.il "sign in" OR "log in"
+site:DOMAIN.co.il inurl:auth
+site:DOMAIN.co.il "username" "password" filetype:html
+
+site:DOMAIN.co.il filetype:env
+site:DOMAIN.co.il filetype:json "secret"
+site:DOMAIN.co.il filetype:config
+site:DOMAIN.co.il "config.js" "api"
+site:DOMAIN.co.il "settings" "key"
+site:DOMAIN.co.il ext:xml "password"
+site:DOMAIN.co.il intitle:"index of" "config"
+
+site:DOMAIN.co.il ext:js "api" "key"
+site:DOMAIN.co.il ext:js "token"
+site:DOMAIN.co.il ext:js "secret"
+site:DOMAIN.co.il "window.__INITIAL_STATE__"
+
+
