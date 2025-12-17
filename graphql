@@ -1,1 +1,31 @@
 
+### GraphQL Circular-Query via Introspection Allowed
+{
+  "query": "query inv { __schema { types { fields { type { fields { type { fields { type { fields { type { name } } } } } } } } } } }",
+  "operationName": "inv"
+}
+ 
+ 
+### GraphQL Introspection Query Enabled:
+ 
+{
+  "query": "{ __schema { types { name fields { name type { name kind } } } } }"
+}
+ 
+### Full Schema Dump (Deep API Discovery)
+ 
+{
+  "query": "query IntrospectionQuery { __schema { types { name fields { name type { name kind } } } } }"
+}
+ 
+### GraphQL Field Suggestions Enabled
+ 
+{
+  "query": "query inv { __schema { directive } }",
+  "operationName": "inv"
+}
+ 
+{
+  "query": "query inv { __schema { directives { name description locations args { name type { name kind } } } } }",
+  "operationName": "inv"
+}
