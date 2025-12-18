@@ -157,3 +157,12 @@
 /var/session/
 /var/tmp/
 /var/view_preprocessed/
+rest/V1/store/storeConfigs
+rest/V1/store/websites
+rest/V1/store/storeViews
+rest/V1/cmsBlock/search
+rest/V1/cmsPage/search
+rest/V1/categories
+rest/V1/products?searchCriteria[currentPage]=1
+rest/V1/guest-carts
+rest/V1/customers/search
