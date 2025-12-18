@@ -166,3 +166,4 @@ rest/V1/categories
 rest/V1/products?searchCriteria[currentPage]=1
 rest/V1/guest-carts
 rest/V1/customers/search
+/setup/index.php
